@@ -1,6 +1,6 @@
 #read in the GTD
 #a version that has only a few variables, to make reading in the data easier
-locations_draft<-read.csv(paste0(data_location,"gtd_lessvars.csv"))%>%
+locations_draft<-read.parquet(paste0(data_location,"gtd_lessvars.parquet"))%>%
   #create a random variable, and sort by that variable
   mutate(rand=runif(n()))%>%
   arrange(rand)%>%
