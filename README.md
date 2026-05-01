@@ -1,4 +1,4 @@
-# GVPT624-finalproject
+# GVPT624 Final Project - Global Terrorism Database GeoGuessr
 
 This is an outline of how my customer version of GeoGuessr using locations of terrorist attacks from the Global Terrorist Database works.
 
