@@ -15,6 +15,7 @@ library(magick)
 library(metro)
 library(gtfstools)
 library(readxl)
+library(arrow)
 
 google_sheet_link<-"https://docs.google.com/spreadsheets/d/188wl-XhzJ0fz0TCU9zHMOKmARJes0_Is-VX1b9NZgAs/edit?usp=sharing"
 auto_run<-"yes"
